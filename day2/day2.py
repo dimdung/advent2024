@@ -1,5 +1,5 @@
 ########################################
-# day1 of Advent Of Code 2024          #
+# day2 of Advent Of Code 2024          #
 # https://adventofcode.com/2024/day/1  #
 # dimdung                              #
 ########################################
