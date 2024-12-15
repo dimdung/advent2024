@@ -1,3 +1,9 @@
+########################################
+# day1 of Advent Of Code 2024          #
+# https://adventofcode.com/2024/day/1  #
+# dimdung                              #
+########################################
+
 import sys
 from collections import defaultdict
 
