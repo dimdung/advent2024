@@ -1,7 +1,9 @@
+# day1 of Advent Of Code 2024 : https://adventofcode.com/2024/day/1
+# dimdung 
 
 import sys
 
-
+# File open with arguments 
 with open(sys.argv[1], "r") as f:
     lines = [list(map(int, line.split())) for line in f.readlines()]
 
