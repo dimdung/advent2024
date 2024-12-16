@@ -1,6 +1,6 @@
 ########################################
 # day4 of Advent Of Code 2024          #
-# https://adventofcode.com/2024/day/1  #
+# https://adventofcode.com/2024/day/4  #
 # dimdung                              #
 ########################################
 
@@ -33,7 +33,7 @@ for r, c in char_map["X"]:
                 break
         else:
             part1 += 1
-print(f"Part 1: {part1}")
+print(f" The Day4 Puzzle input # Part 1: {part1}")
 
 upleft = lambda r, c: (r - 1, c - 1)
 upright = lambda r, c: (r - 1, c + 1)
@@ -54,4 +54,4 @@ for r, c in char_map["A"]:
     )
     if corners in ["MMSS", "MSSM", "SSMM", "SMMS"]:
         part2 += 1
-print(f"Part 2: {part2}")
+print(f" The Day4 Puzzle input # Part 2: {part2}")
