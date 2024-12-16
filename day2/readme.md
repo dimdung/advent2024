@@ -1,8 +1,8 @@
 ```
 
 dimdung@htl007 day2 % python3 day2.py input.txt 
-The Day2 Puzzle input Part 1: 279
-The Day2 Puzzle input Part 2: 343
+The Day2 Puzzle Input # Part 1: 279
+The Day2 Puzzle Input # Part 2: 343
 dimdung@htl007 day2 % 
 
 That's the right answer! You are one gold star closer to finding the Chief Historian. [Continue to Part Two]
