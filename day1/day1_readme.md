@@ -1,5 +1,5 @@
 ```
-dimdung@htl007 day1 % python3 day1.py input.txt 
+dimdung@htl007 day1 % python3 day1.py day1_input.txt 
 The Day1 Puzzle input # Part 1: 1660292
 The Day1 Puzzle input # Part 2: 22776016
 dimdung@htl007 day1 % 
