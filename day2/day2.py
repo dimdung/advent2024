@@ -1,6 +1,6 @@
 ########################################
 # day2 of Advent Of Code 2024          #
-# https://adventofcode.com/2024/day/1  #
+# https://adventofcode.com/2024/day/2  #
 # dimdung                              #
 ########################################
 
@@ -34,7 +34,7 @@ with open(sys.argv[1], "r") as f:
     lines = f.readlines()
 # Part1 result 
 part1 = len([r for r in lines if check_report_day2(r)])
-print(f"The Day2 Puzzle input Part 1: {part1}")
+print(f"The Day2 Puzzle input # Part 1: {part1}")
 # Part2 result 
 part2 = len([r for r in lines if check_report_day2(r, part1=False)])
-print(f"The Day2 Puzzle input Part 2: {part2}")
+print(f"The Day2 Puzzle input # Part 2: {part2}")
