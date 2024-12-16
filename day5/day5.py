@@ -22,7 +22,7 @@ for x, y in rules:
     invalid_map[(y, x)] = True
 
 
-def check_job(job: list[int]) -> bool:
+def check_job_day5(job: list[int]) -> bool:
     for i in range(len(job)):
         for j in range(i + 1, len(job)):
             if invalid_map[(job[i], job[j])]:
@@ -30,7 +30,7 @@ def check_job(job: list[int]) -> bool:
     return True
 
 
-def sort_job(a: int, b: int) -> int:
+def sort_job_day5(a: int, b: int) -> int:
     if invalid_map[(a, b)]:
         return 1
     return -1
@@ -39,10 +39,10 @@ def sort_job(a: int, b: int) -> int:
 part1 = 0
 part2 = 0
 for job in jobs:
-    if check_job(job):
+    if check_job_day5(job):
         part1 += job[len(job) // 2]
     else:
-        fixed_job = sorted(job, key=cmp_to_key(sort_job))
+        fixed_job = sorted(job, key=cmp_to_key(sort_job_day5))
         part2 += fixed_job[len(fixed_job) // 2]
 ## Printing Input # 
 print(f"The Day5 Puzzle input # Part 1: {part1}")
